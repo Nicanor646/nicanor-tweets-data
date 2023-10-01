@@ -8,3 +8,6 @@ pip install -r requirements.txt
 
 # Decompress the data
 unzip data/tweets.json.zip -d data/
+
+# Make scripts executable
+chmod 700 start-*.sh
